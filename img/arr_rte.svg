@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 55 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>arrow_right_fun</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.304177126" y="0.548387097" width="53.7419355" height="14.2580645"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="53.7419355" height="14.2580645" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chemistry-simulation" transform="translate(-485.000000, -394.000000)">
+            <g id="Keyboard" transform="translate(101.000000, 359.000000)">
+                <g id="arrow_right_fun" transform="translate(384.663565, 34.548387)">
+                    <use id="Rectangle-Copy-29" stroke="#535658" mask="url(#mask-2)" stroke-width="2" stroke-linecap="round" stroke-dasharray="3,3" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#535658" x="9.48387097" y="21.3064516" width="27.9007521" height="3.29032258"></rect>
+                    <polygon id="Triangle" fill="#535658" transform="translate(40.655389, 23.006416) rotate(-270.000000) translate(-40.655389, -23.006416) " points="40.6553893 19.1129032 44.5489022 26.8999291 36.7618763 26.8999291"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

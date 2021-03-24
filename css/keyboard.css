@@ -1,0 +1,308 @@
+@charset "UTF-8";
+.ChemicalGenerator-desktop_keyboard {
+  direction: ltr;
+  display: none;
+  position: absolute;
+  top: 39.5em;
+  left: 24.194253621850617em;
+  padding: 2.6em 1.5em 2.6em 1.5em;
+  width: max-content;
+  background: #ECEFF2;
+  cursor: move;
+  border-radius: 0.8em;
+  /*box-shadow: 0 0 2.9em 0 rgba(25,67,75,0.32);*/
+  z-index: 2; }
+  .ChemicalGenerator-desktop_keyboard:after {
+    content: '';
+    clear: both; }
+  .ChemicalGenerator-desktop_keyboard.ui-draggable-dragging {
+    cursor: move;
+    /*z-index: 4 !important;*/ }
+  .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-closeBtn {
+    position: absolute;
+    width: 2.6em;
+    height: 2.6em;
+    top: -1.3em;
+    right: -1.3em;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #ffffff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/x2.svg");
+    box-shadow: 0 0 0.8em 0 rgba(25, 67, 75, 0.14); }
+  .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-toggle-sizeBtn {
+    height: 1.9em;
+    width: 2.4em;
+    display: none;
+    background-color: #7d909b;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    border-radius: 0 0.5em 0 0;
+    background-image: url("../img/increase.svg");
+    background-position: center center;
+    background-size: 1.2em 1.2em;
+    background-repeat: no-repeat; }
+  .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms {
+    margin: 0 1.1em;
+    display: grid;
+    float: left;
+    grid-template-columns: auto auto;
+    grid-gap: 0.6em;
+    /*border-radius: 0.3em;*/
+    overflow: hidden; }
+    .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn {
+      display: block;
+      float: left;
+      width: 4.07em;
+      height: 4.27em;
+      text-align: center;
+      line-height: 4.27em;
+      background: #ffffff;
+      color: #535658;
+      cursor: pointer;
+      border-radius: 0.4em;
+      position: relative;
+      font-weight: 600; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn span {
+        font-size: 1.8em; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn:hover {
+        background: rgba(1, 1, 1, 0.05); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn:active {
+        box-shadow: 0 0 0 1px inset #165671; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[disabled], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn [disabled] span {
+        opacity: 0.3;
+        pointer-events: none; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="=="], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment=""], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="backspace"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="enter"] {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 100%; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="=="] {
+        background-image: url("../img/arr_rte.svg");
+        background-position: center center;
+        background-size: 5.5em 100%;
+        background-repeat: no-repeat; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="data-deleted"] :before {
+        content: "";
+        position: absolute;
+        border-top: 3px solid red;
+        width: 65%;
+        transform: rotate(-45deg);
+        transform-origin: 0% 0%;
+        bottom: 0.5em;
+        left: 0.5em; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="backspace"] {
+        background-image: url("../img/delete.svg");
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="space"] {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        width: 100%; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="enter"] {
+        background-image: url("../img/enter.svg");
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input="dammy"] {
+        pointer-events: none;
+        background-color: transparent; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn.calc-table-btn {
+        display: none; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input="-"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="+"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="×"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="↑"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="dashed"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="fraction"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type="center"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type="top"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type="bottom"] {
+        color: transparent;
+        background-position: center center;
+        background-size: 1.2em 1.2em;
+        background-repeat: no-repeat; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input="-"] {
+        background-image: url("../img/minus.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input="+"] {
+        background-image: url("../img/plu.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input="×"] {
+        background-image: url("../img/multiply.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input="↑"] {
+        background-image: url("../img/arrow_top.svg");
+        background-size: 100% 2.3em; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input="dashed"] {
+        background-image: url("../img/line_dash.svg");
+        background-size: 2.74em 100%; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="fraction"] {
+        background-image: url("../img/fraction.svg");
+        background-size: 100% 3.1em; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type]:after {
+        background-size: 2.6em 100%;
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.4;
+        height: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: center; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type][data-input-type="center"]:after {
+        background-image: url("../img/input_center.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type][data-input-type="top"]:after {
+        background-image: url("../img/input_top.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type][data-input-type="bottom"]:after {
+        background-image: url("../img/input_bottom.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color {
+        background-color: #cadcee; }
+        .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color:hover {
+          background-color: #b0ceeb; }
+    .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section-nonatoms[data-grid="4"] {
+      grid-template-columns: auto auto auto auto; }
+  .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section {
+    margin: 0 1.1em;
+    display: grid;
+    float: left;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-gap: 0.6em;
+    /*border-radius: 0.3em;*/
+    overflow: hidden; }
+    .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn {
+      display: block;
+      float: left;
+      width: 4.07em;
+      height: 4.27em;
+      text-align: center;
+      line-height: 4.27em;
+      background: #ffffff;
+      color: #535658;
+      cursor: pointer;
+      border-radius: 0.4em;
+      position: relative;
+      font-weight: 600; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn span {
+        font-size: 1.8em; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn:hover {
+        background: rgba(1, 1, 1, 0.05); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn:active {
+        box-shadow: 0 0 0 1px inset #165671; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[disabled], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn [disabled] span {
+        opacity: 0.3;
+        pointer-events: none; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="=="], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment=""], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="backspace"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="enter"] {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 100%; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="=="] {
+        background-image: url("../img/arr_rte.svg");
+        background-position: center center;
+        background-size: 5.5em 100%;
+        background-repeat: no-repeat; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="data-deleted"] :before {
+        content: "";
+        position: absolute;
+        border-top: 3px solid red;
+        width: 65%;
+        transform: rotate(-45deg);
+        transform-origin: 0% 0%;
+        bottom: 0.5em;
+        left: 0.5em; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="backspace"] {
+        background-image: url("../img/delete.svg");
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="space"] {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        width: 100%; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="enter"] {
+        background-image: url("../img/enter.svg");
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="dammy"] {
+        pointer-events: none;
+        background-color: transparent; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn.calc-table-btn {
+        display: none; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="-"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="+"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="×"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="↑"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="dashed"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="fraction"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type="center"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type="top"], .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type="bottom"] {
+        color: transparent;
+        background-position: center center;
+        background-size: 1.2em 1.2em;
+        background-repeat: no-repeat; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="-"] {
+        background-image: url("../img/minus.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="+"] {
+        background-image: url("../img/plu.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="×"] {
+        background-image: url("../img/multiply.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="↑"] {
+        background-image: url("../img/arrow_top.svg");
+        background-size: 100% 2.3em; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input="dashed"] {
+        background-image: url("../img/line_dash.svg");
+        background-size: 2.74em 100%; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="fraction"] {
+        background-image: url("../img/fraction.svg");
+        background-size: 100% 3.1em; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type]:after {
+        background-size: 2.6em 100%;
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.4;
+        height: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: center; }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type][data-input-type="center"]:after {
+        background-image: url("../img/input_center.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type][data-input-type="top"]:after {
+        background-image: url("../img/input_top.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type][data-input-type="bottom"]:after {
+        background-image: url("../img/input_bottom.svg"); }
+      .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color {
+        background-color: #cadcee; }
+        .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color:hover {
+          background-color: #b0ceeb; }
+    .ChemicalGenerator-desktop_keyboard .ChemicalGenerator-desktop_keyboard-section[data-grid="4"] {
+      grid-template-columns: auto auto auto auto; }
+  .ChemicalGenerator-desktop_keyboard.calcTableKeyboard .ChemicalGenerator-desktop_keyboard-toggle-sizeBtn {
+    display: block; }
+  .ChemicalGenerator-desktop_keyboard.calcTableKeyboard .ChemicalGenerator-desktop_keyboard-section {
+    display: none; }
+    .ChemicalGenerator-desktop_keyboard.calcTableKeyboard .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table {
+      display: grid; }
+      .ChemicalGenerator-desktop_keyboard.calcTableKeyboard .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table[data-grid="4"] {
+        grid-template-columns: auto auto; }
+      .ChemicalGenerator-desktop_keyboard.calcTableKeyboard .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color, .ChemicalGenerator-desktop_keyboard.calcTableKeyboard .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn[data-input="dammy"], .ChemicalGenerator-desktop_keyboard.calcTableKeyboard .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn[data-input-type="bottom"], .ChemicalGenerator-desktop_keyboard.calcTableKeyboard .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn[data-input-fragment="data-deleted"], .ChemicalGenerator-desktop_keyboard.calcTableKeyboard .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="space"] {
+        display: none; }
+  .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-toggle-sizeBtn {
+    background-image: url("../img/decrease.svg"); }
+  .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn.calc-table-btn {
+    display: block; }
+    .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn.calc-table-btn[data-input-pros="backspace"] {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      width: 100%; }
+  .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color, .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn[data-input="dammy"] {
+    display: block; }
+  .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn[data-input="="] {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 4;
+    grid-column-end: 4; }
+  .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn[data-input="/"] {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 4; }
+  .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color[data-input=">"], .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color[data-input="<"], .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color[data-input-fragment="fraction"], .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color[data-input="("], .ChemicalGenerator-desktop_keyboard.calcTableKeyboard.calcTableKeyboard-bigger .ChemicalGenerator-desktop_keyboard-section.ChemicalGenerator-desktop_keyboard-section-calc-table .ChemicalGenerator-desktop_keyboard-btn.ChemicalGenerator-desktop_keyboard-btn--color[data-input=")"] {
+    display: none; }
+  .ChemicalGenerator-desktop_keyboard[data-input-type="center"] .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type="center"]:after,
+  .ChemicalGenerator-desktop_keyboard[data-input-type="top"] .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type][data-input-type="top"]:after,
+  .ChemicalGenerator-desktop_keyboard[data-input-type="bottom"] .ChemicalGenerator-desktop_keyboard-section .ChemicalGenerator-desktop_keyboard-btn[data-input-pros="inputType"][data-input-type][data-input-type="bottom"]:after {
+    opacity: 1; }

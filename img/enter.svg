@@ -1,0 +1,14 @@
+﻿<svg viewBox="0 0 106 54" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #165671;
+                fill-rule: evenodd;
+            }
+        </style>
+    </defs>
+    <g>
+        <title>Layer 1</title>
+        <path fill="black" d="m42.63406,30.56474l0,3.61c0,0.283 -0.131,0.4 -0.292,0.269l-6.721,-5.694a0.314,0.314 0 0 1 0,-0.494l6.721,-5.694c0.161,-0.135 0.292,-0.014 0.292,0.269l0,3.609m24.865,-6.937l3,0l0,11l-3,0l0,-11zm-25,8l25,0l0,3l-25,0l0,-3z" class="cls-1" id="_" />
+    </g>
+</svg>

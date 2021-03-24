@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  viewBox="0 0 8 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>arrow_top</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chemistry-simulation" transform="translate(-533.000000, -440.000000)" fill="#535658">
+            <g id="Keyboard" transform="translate(101.000000, 359.000000)">
+                <g id="arrow_top" transform="translate(436.080645, 94.889886) rotate(-90.000000) translate(-436.080645, -94.889886) translate(422.080645, 90.389886)">
+                    <rect id="Rectangle" x="0.822381456" y="2.74193548" width="19.7419355" height="3.29032258"></rect>
+                    <polygon id="Triangle" transform="translate(23.835083, 4.441900) rotate(-270.000000) translate(-23.835083, -4.441900) " points="23.8350831 0.548387097 27.7285961 8.335413 19.9415702 8.335413"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

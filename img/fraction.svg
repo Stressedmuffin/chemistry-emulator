@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 18 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2.96129032" y="0" width="12.4045161" height="9.54193548"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.4045161" height="9.54193548" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="2.96129032" y="20.5492595" width="12.4045161" height="9.54193548"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.4045161" height="9.54193548" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chemistry-simulation" transform="translate(-407.000000, -439.000000)" stroke="#535658">
+            <g id="Keyboard" transform="translate(101.000000, 359.000000)">
+                <g id="Group-6" transform="translate(306.000000, 80.373757)">
+                    <use id="Rectangle" mask="url(#mask-2)" stroke-width="2" stroke-linecap="round" stroke-dasharray="3,3" xlink:href="#path-1"></use>
+                    <use id="Rectangle-Copy-28" mask="url(#mask-4)" stroke-width="2" stroke-linecap="round" stroke-dasharray="3,3" xlink:href="#path-3"></use>
+                    <line x1="0.548387097" y1="15.0455975" x2="16.6653785" y2="15.0455975" id="Line" stroke-linecap="square"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

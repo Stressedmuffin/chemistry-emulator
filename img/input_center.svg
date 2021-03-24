@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  viewBox="0 0 27 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>sq_1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-4.17443857e-14" y="-6.03961325e-14" width="10.9677419" height="24.1290323"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10.9677419" height="24.1290323" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="14.2580645" y="1.50990331e-14" width="10.9677419" height="10.9677419"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10.9677419" height="10.9677419" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="14.2580645" y="13.1612903" width="10.9677419" height="10.9677419"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10.9677419" height="10.9677419" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="3,3" stroke-linecap="round">
+        <g id="Chemistry-simulation" transform="translate(-258.000000, -587.000000)" stroke="#535658" stroke-width="2">
+            <g id="Keyboard" transform="translate(101.000000, 359.000000)">
+                <g id="Group-7" transform="translate(148.612903, 217.948823)">
+                    <g id="sq_1" transform="translate(9.322581, 10.180209)">
+                        <use id="Rectangle" mask="url(#mask-2)" fill="#535658" xlink:href="#path-1"></use>
+                        <use id="Rectangle-Copy-29" mask="url(#mask-4)" opacity="0.5" xlink:href="#path-3"></use>
+                        <use id="Rectangle-Copy-30" mask="url(#mask-6)" opacity="0.5" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
